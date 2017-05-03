@@ -1,11 +1,29 @@
 {
   "name": "imoney-react-gallery",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "一个简单的焦点图组件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "stormtea123",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormtea123/imoney-react-gallery.git"
+  },
+  "keywords": [
+    "gallery"
+  ],
+  "bugs": {
+    "url": "https://github.com/stormtea123/imoney-react-gallery/issues"
+  },
+  "homepage": "https://github.com/stormtea123/imoney-react-gallery#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
 }
