@@ -1,0 +1,18 @@
+/*gallery*/
+.gallery { position:relative; width:100%; height:650px; overflow: hidden; }
+.gallery-item { display:none; opacity:0; height:650px; background-position:center top; }
+.gallery-item.current { display:block; opacity:1;
+  -moz-animation: galleryAnimation 1s;
+  -webkit-animation: galleryAnimation 1s;
+  -o-animation: galleryAnimation 1s;
+  animation: galleryAnimation 1s;
+}
+.gallery-item1 { background-image:url("https://whaledata.cn/build/images/banner1.jpg"); } 
+.gallery-item2 { background-image:url("https://whaledata.cn/build/images/banner2.jpg"); } 
+.gallery-pagers { position:absolute; left:50%; bottom:53px; width:300px; margin-left:-150px; text-align:center; font-size:0; }
+.gallery-pagers i { display:inline-block; width:16px; height:16px; overflow:hidden; margin:0 10px; border-radius:8px; background:#cdced0; }
+.gallery-pagers i.current { background:#07c1dd; }
+.gallery-nav { position:relative; z-index:1; }
+.gallery-nav-btn { position:absolute; top:277px; width:53px; height:95px; cursor:pointer; }
+.gallery-nav-btn-prev { background:url("https://whaledata.cn/build/images/gallery-prev.png") no-repeat 0 0; left:20px; }
+.gallery-nav-btn-next { background:url("https://whaledata.cn/build/images/gallery-next.png") no-repeat 0 0; right:20px; }

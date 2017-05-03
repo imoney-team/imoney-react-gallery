@@ -1,11 +1,11 @@
 {
-  "name": "react-gallery",
-  "version": "1.0.3",
+  "name": "imoney-react-gallery",
+  "version": "1.0.0",
   "description": "一个简单的焦点图组件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "admin",
+  "author": "stormtea123",
   "license": "ISC"
 }
