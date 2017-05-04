@@ -109,8 +109,8 @@ class Gallery extends React.Component {
       <div className="gallery" onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave}>
         {this.props.showNav &&
           <div className="ui-w gallery-nav">
-            <div className="gallery-nav-btn gallery-nav-btn-prev" onClick={this.handlePrev}></div>
-            <div className="gallery-nav-btn gallery-nav-btn-next" onClick={this.handleNext}></div>
+            <div className="gallery-nav-btn gallery-nav-btn-prev" onClick={this.handlePrev}>&lt;</div>
+            <div className="gallery-nav-btn gallery-nav-btn-next" onClick={this.handleNext}>&gt;</div>
           </div>
         }
         <div className="gallery-list">{listItems}</div>
