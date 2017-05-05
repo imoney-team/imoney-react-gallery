@@ -4,6 +4,10 @@
 
 IE9+
 
+## Installation
+
+    npm i imoney-react-gallery
+
 ## Usage
 
 ```js
